@@ -1,1 +1,1 @@
-# TypeScript Essencial
+# Programação Orientada a Objetos com TypeScript
