@@ -1,11 +1,11 @@
 export default class Caneta {
-  modelo: string ;
-  cor: string ;
-  ponta: number ;
-  carga: number ;
-  tampada: boolean ;
+  public modelo: string;
+  public cor: string;
+  private ponta: number;
+  protected carga: number;
+  protected tampada: boolean;
 
-  constructor (modelo: string, cor: string, ponta: number, carga: number, tampada: boolean){
+  constructor (modelo: string = 'indefinido', cor: string = 'indefinido', ponta: number = 0.0, carga: number = 0, tampada: boolean = false) {
     this.modelo = modelo,
     this.cor = cor,
     this.ponta = ponta,
@@ -14,8 +14,8 @@ export default class Caneta {
   }
 
   public status(): void {
-    console.log(
-    `MODELO: ${this.modelo}
+    console.log(`
+    MODELO: ${this.modelo}
     COR: ${this.cor}
     PONTA: ${this.ponta}
     CARGA: ${this.carga}

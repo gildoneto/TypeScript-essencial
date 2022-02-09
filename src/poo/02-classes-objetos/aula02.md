@@ -11,7 +11,7 @@ Coisa material ou abstrata que pode ser percebida pelos sentidos e descrita por 
     - a caneta em si é o **objeto**
     - o molde representa a **classe**
 
-![Classe Caneta em Portugol](ClasseCaneta.png?raw=true "Classe Caneta")
+![Classe Caneta em Portugol](./img/ClasseCaneta.png?raw=true "Classe Caneta")
 
 ### Seguindo os passos em TS
 
@@ -26,7 +26,7 @@ Coisa material ou abstrata que pode ser percebida pelos sentidos e descrita por 
     - `carga: number`
     - `tampada: boolean`
 
-4. **No arquivo Caneta criar os métodos (funções):**
+4. **No arquivo Caneta criar as funções (métodos):**
     - `rabiscar(): void`
     - `tampar(): void`
     - `destampar(): void`
@@ -122,3 +122,4 @@ c2.rabiscar
 
 ### Sugestão Exercício - Aula 02
 
+Pensar em 1 objeto concreto e 1 objeto conceitual.
